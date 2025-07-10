@@ -25,10 +25,10 @@ def pre_call():
     # Match number
     if phone == "966502104776":
         print("✅ Caller matched: Ahmed")
-        return jsonify({"caller_name": "Ahmed"})
+        return jsonify({"caller_name": "أحمد"})
     elif phone == "966566128561":
         print("✅ Caller matched: sarah")
-        return jsonify({"caller_name": "sarah"})
+        return jsonify({"caller_name": "سارة"})
     else:
         print("❌ Caller not found for number:", phone)
         return jsonify({"error": "Caller not found"}), 404
